@@ -8,11 +8,11 @@ class Game {
 	public:
 	CompositionManager();
 	void setBattle(battle);
-	
+
 	void step();
 	void limitFPS();
 	bool isFinished();
-	
+
 	private:
 	void drawFrame();
 	Screen screen;

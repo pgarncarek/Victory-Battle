@@ -58,7 +58,7 @@ class EntityType {
 	friend class Battle;
 };
 
-/* Entity is anything that is not ground, bullets, walls, aliens, units. */
+/* Entity is anything that is not ground: bullets, walls, aliens, units. */
 class Entity {
 	public:
 	Entity();

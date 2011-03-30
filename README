@@ -1,0 +1,13 @@
+Some notes about code formatting:
+- open brace should be in the same line that function/class/etc declaration.
+Right:
+int right(int way) {
+
+}
+Wrong:
+int wrong(int way)
+{
+
+}
+
+- use tabs in code indentation (We say NO! to spaces)
